@@ -78,7 +78,7 @@
 
     
     
-    <link rel="prev" href="story1.html" />
+    <link rel="prev" href="code3.md" />
     
 
     </head>
@@ -120,26 +120,52 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" >
+        <li class="chapter " data-level="1.2" data-path="story1.html">
             
-                <span>
+                <a href="story1.html">
             
                     
-                    [最近一次的專案]
+                    最近一次的專案
             
-                </span>
+                </a>
             
 
             
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="story1.html">
+        <li class="chapter " data-level="1.2.1" data-path="story2.md">
             
-                <a href="story1.html">
+                <span>
             
                     
-                    前言
+                    後台
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="story3.md">
+            
+                <span>
+            
+                    
+                    前台
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="story4.md">
+            
+                <span>
+            
+                    
+                    攻擊與防守
             
                 </a>
             
@@ -152,7 +178,52 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="about.html">
+        <li class="chapter " data-level="1.3" data-path="code1.md">
+            
+                <span>
+            
+                    
+                    應用範例
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="code2.md">
+            
+                <span>
+            
+                    
+                    在CentOS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="code3.md">
+            
+                <span>
+            
+                    
+                    在Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="about.html">
             
                 <a href="about.html">
             
@@ -259,10 +330,10 @@ iOS swift &#x624B;&#x6A5F;&#x8A2D;&#x8A08;&#xFF0C;Vue 2.0  </p>
 <p>&#x83EF;&#x4E9E;&#x79D1;&#x6280;(&#x7F8E;&#x5149;)&#xFF0C;&#x5A01;&#x76DB;&#x96FB;&#x5B50; ......        </p>
 </blockquote>
 </blockquote>
-<h2 id="&#x6700;&#x8FD1;&#x4E00;&#x6B21;&#x5DE5;&#x4F5C;&#x5167;&#x5BB9;&#xFF1A;">&#x6700;&#x8FD1;&#x4E00;&#x6B21;&#x5DE5;&#x4F5C;&#x5167;&#x5BB9;&#xFF1A;</h2>
+<h2 id="&#x6700;&#x8FD1;&#x4E00;&#x6B21;&#x5DE5;&#x4F5C;&#x5167;&#x5BB9;">&#x6700;&#x8FD1;&#x4E00;&#x6B21;&#x5DE5;&#x4F5C;&#x5167;&#x5BB9;</h2>
 <p>&#x4E3B;&#x8981;&#x662F;&#x8CA0;&#x8CAC;&#x5168;&#x7AEF;&#x958B;&#x767C;&#xFF0C;
 &#x88FD;&#x4F5C;&#x7BA1;&#x7406;&#x8005;&#x7AD9;&#x53F0;&#xFF0C;&#x5BA2;&#x6236;&#x7AD9;&#x53F0;&#xFF0C;&#x7B2C;&#x4E09;&#x65B9;API&#x56DE;&#x8ABF;&#xFF0C;&#x5373;&#x6642;&#x804A;&#x5929;&#x5BA4;&#x4E92;&#x52D5;&#x7B49;&#x3002;</p>
-<h3 id="&#x5DE5;&#x4F5C;&#x4F3A;&#x670D;&#x5668;&#x74B0;&#x5883;&#x4ECB;&#x7D39;&#xFF1A;">&#x5DE5;&#x4F5C;&#x4F3A;&#x670D;&#x5668;&#x74B0;&#x5883;&#x4ECB;&#x7D39;&#xFF1A;</h3>
+<h3 id="&#x5DE5;&#x4F5C;&#x4F3A;&#x670D;&#x5668;&#x74B0;&#x5883;&#x4ECB;&#x7D39;">&#x5DE5;&#x4F5C;&#x4F3A;&#x670D;&#x5668;&#x74B0;&#x5883;&#x4ECB;&#x7D39;</h3>
 <pre><code>* &#x7CFB;&#x7D71;&#x662F; Linux (CentOS)
 * Web&#x4F3A;&#x670D;&#x5668; Nginx&#xFF0C;&#x63A1; load balance  
 * DB &#x662F;&#x4F7F;&#x7528; mariadb (mysql &#x793E;&#x7FA4;&#x7248;)&#xFF0C;&#x63A1;db&#x8907;&#x5BEB;&#xFF0C;&#x7A0B;&#x5F0F;&#x8B80;&#x5BEB;&#x4E00;&#x5F8B;&#x901A;&#x904E; stored procedure
@@ -270,7 +341,7 @@ iOS swift &#x624B;&#x6A5F;&#x8A2D;&#x8A08;&#xFF0C;Vue 2.0  </p>
 * &#x5FEB;&#x53D6;&#x4E0A;&#x662F;&#x4F7F;&#x7528; Redis
 * Log&#x4E0A;&#x662F;&#x4F7F;&#x7528; Kibana &#xFF08;ELK&#xFF09;
 * Log&#x6709;&#x7570;&#x5E38;&#x6703;&#x4F7F;&#x7528; Telegram API &#x50B3;&#x905E;&#x7570;&#x5E38;&#x8A0A;&#x606F;
-</code></pre><h3 id="&#x7BA1;&#x7406;&#x8005;&#x4ECB;&#x9762;&#xFF1A;">&#x7BA1;&#x7406;&#x8005;&#x4ECB;&#x9762;&#xFF1A;</h3>
+</code></pre><h3 id="&#x7BA1;&#x7406;&#x8005;&#x4ECB;&#x9762;">&#x7BA1;&#x7406;&#x8005;&#x4ECB;&#x9762;</h3>
 <p>&#x4F7F;&#x7528; AdminLTE &#x7684; Bootstrap &#x6539;&#x7248;&#xFF0C;
 &#x767B;&#x5165;&#x4ECB;&#x9762;&#x8207;&#x90E8;&#x5206;&#x64CD;&#x4F5C;&#x6709; Google &#x7684;&#x7B2C;&#x4E8C;&#x6B65;&#x9A57;&#x8B49;&#xFF0C;
 &#x4E00;&#x5E33;&#x865F;&#x53EA;&#x80FD;&#x767B;&#x5165;&#x4E00;&#x53F0;&#x96FB;&#x8166;&#xFF0C;&#x7DB2;&#x9801;&#x9A57;&#x8A3C;&#x6A19;&#x982D;&#x63A1; JWT&#xFF0C;
@@ -297,7 +368,7 @@ iOS swift &#x624B;&#x6A5F;&#x8A2D;&#x8A08;&#xFF0C;Vue 2.0  </p>
 <li><p>&#x53C3;&#x8003;&#x756B;&#x9762;&#xFF1A;&#x81EA;&#x8A02;&#x4FE1;&#x7528;&#x5361;&#x756B;&#x9762;&#x4E32;&#x63A5;&#x7B2C;&#x4E09;&#x65B9;&#x4FE1;&#x7528;&#x5361;API<br><img src="../imgs/b3.png" alt="&#x4FE1;&#x7528;&#x5361;API">  </p>
 </li>
 </ul>
-<h3 id="&#x5373;&#x6642;&#x804A;&#x5929;&#x5BA4;&#xFF1A;">&#x5373;&#x6642;&#x804A;&#x5929;&#x5BA4;&#xFF1A;</h3>
+<h3 id="&#x5373;&#x6642;&#x804A;&#x5929;&#x5BA4;">&#x5373;&#x6642;&#x804A;&#x5929;&#x5BA4;</h3>
 <p>&#x904B;&#x4F5C;&#x5728; PHP Workerman&#x4E0A;&#xFF0C;&#x5206;&#x70BA; server &#x7AEF;&#x5373;&#x6642;&#x901A;&#x8A0A; &#x8207; client&#x7AEF;&#x5BA2;&#x6236;&#x4ECB;&#x9762;&#x53CA;&#x7BA1;&#x7406;&#x8005;&#x4ECB;&#x9762;&#x3002;
 &#x5373;&#x6642;&#x901A;&#x8A0A;&#x662F; server &#x7684; php port &#x9023;&#x63A5; client &#x7DB2;&#x9801;&#x7684; socket.io&#xFF0C;&#x7DB2;&#x9801;&#x4E0A;&#x7684;&#x529F;&#x80FD;&#x6709;&#x5373;&#x6642;&#x8AC7;&#x8A71;&#xFF0C;
 &#x5EE3;&#x64AD;&#xFF0C;&#x7981;&#x8A00;&#x8207;&#x8E22;&#x51FA;&#xFF0C;&#x8207;&#x64F4;&#x5145;&#x5176;&#x4ED6;&#x7684;&#x5BA2;&#x88FD;&#x884C;&#x70BA;&#x3002;&#x767B;&#x5165;&#x7684;&#x89D2;&#x8272;&#x6709;&#x7BA1;&#x7406;&#x8005;&#x8207;&#x8A2A;&#x5BA2;&#x7684;</p>
@@ -345,7 +416,7 @@ iOS swift &#x624B;&#x6A5F;&#x8A2D;&#x8A08;&#xFF0C;Vue 2.0  </p>
 
             
                 
-                <a href="story1.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 前言">
+                <a href="code3.md" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 在Docker">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
@@ -357,7 +428,7 @@ iOS swift &#x624B;&#x6A5F;&#x8A2D;&#x8A08;&#xFF0C;Vue 2.0  </p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"個人資訊","level":"1.3","depth":1,"previous":{"title":"前言","level":"1.2.1","depth":2,"path":"article/story1.md","ref":"article/story1.md","articles":[]},"dir":"ltr"},"config":{"plugins":["search-pro","back-to-top-button","chapter-fold","advanced-emoji","splitter","emphasize","custom-favicon","intopic-toc","hide-element"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"emphasize":{},"intopic-toc":{"isCollapsed":false,"isScrollspyActive":true,"label":"章節","maxDepth":2,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"splitter":{},"search-pro":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"imgs/me.ico","back-to-top-button":{},"custom-favicon":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"jacob","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"yrhhiming","language":"zh-tw","gitbook":"*","description":"程式心得說明"},"file":{"path":"article/about.md","mtime":"2022-05-26T20:01:03.604Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-05-26T20:53:33.983Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"個人資訊","level":"1.4","depth":1,"previous":{"title":"在Docker","level":"1.3.2","depth":2,"path":"article/code3.md","ref":"article/code3.md","articles":[]},"dir":"ltr"},"config":{"plugins":["search-pro","back-to-top-button","chapter-fold","advanced-emoji","splitter","emphasize","custom-favicon","intopic-toc","hide-element"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"emphasize":{},"intopic-toc":{"isCollapsed":false,"isScrollspyActive":true,"label":"章節","maxDepth":2,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"splitter":{},"search-pro":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"imgs/me.ico","back-to-top-button":{},"custom-favicon":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"jacob","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"yrhhiming","language":"zh-tw","gitbook":"*","description":"程式心得說明"},"file":{"path":"article/about.md","mtime":"2022-05-26T21:00:15.787Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-05-26T21:15:47.362Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
